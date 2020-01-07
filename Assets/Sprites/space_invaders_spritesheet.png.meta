@@ -1,0 +1,775 @@
+fileFormatVersion: 2
+guid: bc9ff845c54616a4291aa35b179d7ba7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2109105473843859455
+    second: inv0_0
+  - first:
+      213: 3123381305103901849
+    second: inv0_1
+  - first:
+      213: -4151225758117473269
+    second: inv1_0
+  - first:
+      213: 3844382992273962414
+    second: inv1_1
+  - first:
+      213: 3257749038812710366
+    second: inv2_0
+  - first:
+      213: -5940505264389798041
+    second: inv2_1
+  - first:
+      213: 1833936535200078252
+    second: ufo_exp
+  - first:
+      213: 7157334705505777242
+    second: ship0
+  - first:
+      213: -4304169215401116139
+    second: ufo
+  - first:
+      213: 7157334705505777242
+    second: p_player
+  - first:
+      213: -8658740680577835745
+    second: i0_0
+  - first:
+      213: -585721460059593022
+    second: i0_1
+  - first:
+      213: 1976450358398775566
+    second: i0_2
+  - first:
+      213: -3939853933827105673
+    second: i0_3
+  - first:
+      213: 2035456725549115471
+    second: space_invaders_spritesheet_5
+  - first:
+      213: -5661371367345244038
+    second: i2_0
+  - first:
+      213: -7796220558757928859
+    second: i2_1
+  - first:
+      213: -6979883393138080252
+    second: i3_0
+  - first:
+      213: -8453827834758555635
+    second: i3_1
+  - first:
+      213: 2169830612780273125
+    second: space_invaders_spritesheet_10
+  - first:
+      213: 8106952739810859073
+    second: space_invaders_spritesheet_11
+  - first:
+      213: -8543391648298635463
+    second: space_invaders_spritesheet_12
+  - first:
+      213: 7538431513594598215
+    second: exp_red
+  - first:
+      213: -1943505955643238903
+    second: exp_white
+  - first:
+      213: -9092575705018385951
+    second: barier_damage
+  - first:
+      213: -3148738140113921662
+    second: exp_player
+  - first:
+      213: 1046047748846698129
+    second: space_invaders_spritesheet_16
+  - first:
+      213: -6993562832263441884
+    second: Barrier
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 1
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: -100
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 300, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inv0_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 89
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ccedc43a3a22b478350f4f1add8479
+      internalID: -2109105473843859455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inv0_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 89
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2e20888d51acb498e8cbfb805a1146
+      internalID: 3123381305103901849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inv1_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 60
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7dc6ce6446e8d4986ea818b6c452c9
+      internalID: -4151225758117473269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inv1_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 60
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2ea89242154b244be21da77851b931
+      internalID: 3844382992273962414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inv2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 31
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493a6411854c2864bbce8d0a0415a385
+      internalID: 3257749038812710366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inv2_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 31
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1335dfbe9907469448182a2c3a546db6
+      internalID: -5940505264389798041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ufo_exp
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 4
+        width: 73
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948a4ee14bc4a7f4d9f4e3dda338e85f
+      internalID: 1833936535200078252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 89
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061028bf12380274c9d6ea73188fdc38
+      internalID: 7157334705505777242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ufo
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc71df8bbb9f5c04db0b920fa3f80cfd
+      internalID: -4304169215401116139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: p_player
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 71
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9e980d6be915b45b0a353094e25914
+      internalID: 7157334705505777242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: i0_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 62
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62be335b297da542aa424dd49c8265a
+      internalID: -8658740680577835745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: i0_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 62
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd3185dc38762d47a761bedf16a5ad4
+      internalID: -585721460059593022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: i0_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 62
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a0a4427e35f1a48881bd2664487bc9
+      internalID: 1976450358398775566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: i0_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 62
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ee92b64a9a0a24d978787ec66310d6
+      internalID: -3939853933827105673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_invaders_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 61
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0def1e32991b6a84bb1c7905359e1cda
+      internalID: 2035456725549115471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: i2_0
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 61
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b792658259e09554599f6e4a18f8c579
+      internalID: -5661371367345244038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: i2_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 61
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f621baccb6a34c4793032cda7512b23
+      internalID: -7796220558757928859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: i3_0
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 61
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97645b4e022c14f40b9a1c85a9d8b820
+      internalID: -6979883393138080252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: i3_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 61
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f99f6a4b5a42042b2ec231efa18c40
+      internalID: -8453827834758555635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_invaders_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 61
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca5ec34dc5143349b242e5a6f883c30
+      internalID: 2169830612780273125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_invaders_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 61
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55752c09957d558438f4c0062f5dd13c
+      internalID: 8106952739810859073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_invaders_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 59
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131c9e1325c9ef6479067b833ccb3f79
+      internalID: -8543391648298635463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_red
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 88
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53be071eb0ebda744ab9cf123f4aa8f7
+      internalID: 7538431513594598215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_white
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 88
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feccce9fdfe1c2e45ac66b080432e283
+      internalID: -1943505955643238903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barier_damage
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 89
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbeb5fe5f1f0c4f47891d1face851cbf
+      internalID: -9092575705018385951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exp_player
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bde2e4ce4c7a304ebd6aa1b8e20e00a
+      internalID: -3148738140113921662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: space_invaders_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 4
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b58ee2a0b48d24589ade054b3b65ef
+      internalID: 1046047748846698129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Barrier
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 65
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e8273be2e424542b187e144338bb71
+      internalID: -6993562832263441884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
