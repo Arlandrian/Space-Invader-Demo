@@ -37,7 +37,7 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
                         singletonObject.name = typeof(T).ToString() + " (Singleton)";
 
                         // Make instance persistent.
-                        // DontDestroyOnLoad(singletonObject);
+                        DontDestroyOnLoad(singletonObject);
                     }
                 }
 
@@ -49,12 +49,13 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        m_ShuttingDown = true;
+       // m_ShuttingDown = true;
     }
 
 
     private void OnDestroy()
     {
-        m_ShuttingDown = true;
+        //m_ShuttingDown = true;
+        //m_Instance = null;
     }
 }

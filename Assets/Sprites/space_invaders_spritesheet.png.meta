@@ -46,7 +46,7 @@ TextureImporter:
     second: i0_3
   - first:
       213: 2035456725549115471
-    second: space_invaders_spritesheet_5
+    second: player_bullet
   - first:
       213: -5661371367345244038
     second: i2_0
@@ -76,16 +76,34 @@ TextureImporter:
     second: exp_white
   - first:
       213: -9092575705018385951
-    second: barier_damage
+    second: bullet_damage
   - first:
       213: -3148738140113921662
     second: exp_player
   - first:
       213: 1046047748846698129
-    second: space_invaders_spritesheet_16
+    second: exp_player1
   - first:
       213: -6993562832263441884
     second: Barrier
+  - first:
+      213: -918976243923770601
+    second: PU_FastMove
+  - first:
+      213: -6634786323657723973
+    second: PU_DoubleBarrel
+  - first:
+      213: 6942376202569326783
+    second: PU_FastShoot
+  - first:
+      213: 7157334705505777242
+    second: heart
+  - first:
+      213: -3456119337536843449
+    second: ship1
+  - first:
+      213: 8342652507314131844
+    second: Selection
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -104,7 +122,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
@@ -464,7 +482,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: space_invaders_spritesheet_5
+      name: player_bullet
       rect:
         serializedVersion: 2
         x: 147
@@ -674,13 +692,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: barier_damage
+      name: bullet_damage
       rect:
         serializedVersion: 2
-        x: 216
-        y: 89
-        width: 24
-        height: 27
+        x: 64
+        y: 33
+        width: 19
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,7 +734,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: space_invaders_spritesheet_16
+      name: exp_player1
       rect:
         serializedVersion: 2
         x: 177
@@ -753,6 +771,132 @@ TextureImporter:
       bones: []
       spriteID: b1e8273be2e424542b187e144338bb71
       internalID: -6993562832263441884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PU_FastMove
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 33
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e212a3980cd1dc49b02694bccf80fff
+      internalID: -918976243923770601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PU_DoubleBarrel
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 31
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de397a9254ca3142a237a0da349844b
+      internalID: -6634786323657723973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PU_FastShoot
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 34
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309d658bbe46e5c47bdbc7224808a6f6
+      internalID: 6942376202569326783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 31
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca1db9b8bd30ea49b2346a13f2c30bc
+      internalID: 7157334705505777242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ship1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 4
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fadca310456bad4981788a878698524
+      internalID: -3456119337536843449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selection
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 90
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b5e3fda709860409d48ae6090235c2
+      internalID: 8342652507314131844
       vertices: []
       indices: 
       edges: []
