@@ -12,7 +12,7 @@ using UnityEngine;
 /// </summary>
 public enum InvaderType { Basic = 0, Strong = 1, Alpha = 2, Ufo = 3 }
 /// <summary>
-/// Spawn, Move and fire from invaders
+/// Spawn, Move and fire from invaderss
 /// </summary>
 public class InvaderManager : Singleton<InvaderManager>
 {
