@@ -12,6 +12,9 @@ using UnityEngine.UI;
 /// </summary>
 public class GameManager : Singleton<GameManager>
 {
+
+    #region Public Variables
+
     [Header("Sprite References")]
     public Sprite Sprite_BulletExplodeRed;
     public Sprite Sprite_BulletExplodeWhite;
@@ -51,10 +54,10 @@ public class GameManager : Singleton<GameManager>
 
     public bool isGamePaused { get; private set; } = false;
 
-    int selectedShip = 0;
-
     public float xEdge { get; private set; } = 6.7f;
+    #endregion
 
+    int selectedShip = 0;
     Coroutine currentCoroutine;
 
     void Awake()
@@ -66,7 +69,6 @@ public class GameManager : Singleton<GameManager>
 
         LoadPlayerShip();
         xEdge = Camera.main.orthographicSize * Camera.main.aspect - (pController.GetComponent<BoxCollider2D>().bounds.size.x / 2f);
-
     }
 
     private void LoadPlayerShip()
@@ -152,7 +154,6 @@ public class GameManager : Singleton<GameManager>
         else {
             WaveDefeatedWait(false);
             InvaderManager.Instance.ReloadInvaders();
-
         }
     }
 
@@ -170,6 +171,7 @@ public class GameManager : Singleton<GameManager>
             GameOver();
         }
         else {
+            AudioManager.Instance.ResetPeriod();
             ShipDeadWait(false);
         }
     }
@@ -202,8 +204,8 @@ public class GameManager : Singleton<GameManager>
             ShowMessage(messageInfos,6,8, () => { SceneManager.LoadScene(0); });
         }
         else {
+            AudioManager.Instance.ResetPeriod();
             ShowMessage(messageInfos, 5, 6);
-
         }
     }
 

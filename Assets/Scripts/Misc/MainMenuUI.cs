@@ -10,8 +10,6 @@ public class MainMenuUI : MonoBehaviour
 {
     public Text hiScoreText;
 
-   
-
     private void Start()
     {
         CanvasScaler cs = GetComponent<CanvasScaler>();

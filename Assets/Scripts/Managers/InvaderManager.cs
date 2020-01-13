@@ -45,6 +45,7 @@ public class InvaderManager : Singleton<InvaderManager>
 
     #endregion
 
+    #region Private Variables
     float lastTimeMoved = 0f;
     float direction = 1;
 
@@ -67,6 +68,7 @@ public class InvaderManager : Singleton<InvaderManager>
     List<int> aliveColumns;
 
     bool invadersSpawningFinished = false;
+    #endregion
 
     void Start()
     {
@@ -283,7 +285,7 @@ public class InvaderManager : Singleton<InvaderManager>
         invadersSpawningFinished = false;
         GameManager.Instance.PauseGame();
 
-        WaitForSeconds sec = new WaitForSeconds(0.05f);
+        WaitForSeconds sec = new WaitForSeconds(0.03f);
         aliveInvaders = new bool[xSize,ySize];
         aliveColumns = new List<int>(xSize);
         for(int i = 0;i < xSize; i++) {

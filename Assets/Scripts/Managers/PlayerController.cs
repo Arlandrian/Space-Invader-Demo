@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+
+    #region Public Variables
+
     [Header("Prefab References")]
     public GameObject bulletPrefab;
 
@@ -24,6 +27,8 @@ public class PlayerController : MonoBehaviour
 
     [HideInInspector]
     public bool usingDoubleBarrel = false;
+
+    #endregion
 
     #region Private Variables
 
@@ -64,7 +69,7 @@ public class PlayerController : MonoBehaviour
         if (GameManager.Instance.isGamePaused)
             return;
 
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.Q))
             SceneManager.LoadScene(0);
 
         // User input
