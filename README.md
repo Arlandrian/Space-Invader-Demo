@@ -1,6 +1,6 @@
 # Space Invaders Demo
 
-[Explanation Document](Space Invaders Demo_Doc.pdf)
+[Explanation Document](Space%20Invaders%20Demo_Doc.pdf)
 
 [UML Diagram](UML_Diagram.png)
 
